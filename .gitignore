@@ -21,3 +21,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /bin/
+
+# ignoro .project y .classpath por si causan problemas, en algunos lados dicen que se tienen que versionar, en otros que los machos usan maven
+.project
+.classpath
